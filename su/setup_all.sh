@@ -20,3 +20,10 @@ read ans
 if [ ${ans} = "y" ]; then
   sh tig_install.sh
 fi
+
+# install tmux
+echo "Do you want to install tmux?[y/n]"
+read ans
+if [ ${ans} = "y" ]; then
+  sh tmux_install.sh
+fi
